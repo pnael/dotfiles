@@ -49,7 +49,9 @@ filetype plugin indent on    " required
 "Coloration syntaxique
 syntax on
 "Numéro des lignes
-se number
+set number
+"Highlight cursor line
+set cursorline
 "status line
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]
 set laststatus=2
